@@ -28,3 +28,10 @@ These are tutorial codes I've used for data visualization. All the codes are pro
  - 시리즈 vs 시리즈
  - 데이터프레임 vs 숫자
  - 데이터프레임 vs 데이터프레임
+ 
+ ## part 2:
+ - csv 파일 읽기
+ - 엑셀 파일 읽기
+ - json 파일로 저장
+ - 엑셀 파일로 저장
+ - 여러 개의 데이터프레임을 하나의 엑셀 파일로 저장
