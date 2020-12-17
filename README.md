@@ -15,6 +15,7 @@ These are tutorial codes I've used for data visualization. All the codes are pro
 - lmplot 
 - data : K-pop Girl Groups (1992-2020)
 	- source :  dbkpop (K-pop Database)
+	
 	 flights.csv (BI report) 
 	
 # pandas : 
