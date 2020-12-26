@@ -13,6 +13,8 @@ These are tutorial codes I've used for data visualization. All the codes are pro
 - boxplot
 - scatterplot
 - lmplot 
+- subplot
+- joinplot
 - data : K-pop Girl Groups (1992-2020)
 	- source :  dbkpop (K-pop Database)
 	
