@@ -5,6 +5,7 @@ These are tutorial codes I've used for data visualization. All the codes are pro
 # tutorials :
 - https://www.youtube.com/watch?v=Pkvdc2Z6eBg'. (seaborn)
 - <파이썬 머신러닝 판다스 데이터 분석> (pandas)
+- <Matplotlib Tutorial - 파이썬으로 데이터 시각화하기> (matplotlib)
 
 # seaborn  : 
 - lineplot
@@ -37,3 +38,10 @@ These are tutorial codes I've used for data visualization. All the codes are pro
  - json 파일로 저장
  - 엑셀 파일로 저장
  - 여러 개의 데이터프레임을 하나의 엑셀 파일로 저장
+ 
+# Matplotlib : 
+ ## 1 ~ 3 :
+ - plt.plot()
+ - plt.axis()
+ - plt.xlabel(...,fontdict,labelpad,...)
+ - plt.ylabel(...,fontdict,labelpad,...)
