@@ -15,7 +15,9 @@ These are tutorial codes I've used for data visualization. All the codes are pro
 - scatterplot
 - lmplot 
 - subplot
+- pairplot
 - joinplot
+- heatmap
 - data : K-pop Girl Groups (1992-2020)
 	- source :  dbkpop (K-pop Database)
 	
