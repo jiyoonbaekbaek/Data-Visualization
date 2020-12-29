@@ -41,6 +41,20 @@ These are tutorial codes I've used for data visualization. All the codes are pro
  - 엑셀 파일로 저장
  - 여러 개의 데이터프레임을 하나의 엑셀 파일로 저장
  
+ ## part 3:
+ - df.shape
+ - df.info
+ - df.dtypes
+ - df.describe(include='all')
+ - df.count()
+ - df['열 이름'].value_counts()
+ - df[상관관계를 구하고 싶은 열 목록 리스트].corr()
+ 
+ ## part 4 :
+ skipped most of the visualization parts since I'm already learning sns,plt separately from different sources
+ - Folium 라이브러리 - 지도 활용 시각화 
+ 
+ 
 # Matplotlib : 
  ## 1 ~ 3 :
  - plt.plot()
