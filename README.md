@@ -61,3 +61,24 @@ These are tutorial codes I've used for data visualization. All the codes are pro
  - plt.axis()
  - plt.xlabel(...,fontdict,labelpad,...)
  - plt.ylabel(...,fontdict,labelpad,...)
+ 
+ ## 4 ~ 8 :
+ - 4. plot 메소드의 라벨을 지정하고 legend 호출
+ 범례 위치 지정하기 : legend 메소드의 loc 옵션
+ 범례에 표시될 열 갯수 조정하기 : legend 메소드의 ncol 옵션
+ 범례에 표시될 폰트 크기 조정하기 : legend 메소드의 fontsize 옵션
+ 범례 테두리 꾸미기 : legend 메소드의 frameon,shadow 등등의 옵션
+ - 5. 축 범위 지정하기
+ xlim([xmin,xmax])
+ ylim([ymin,ymax])
+ axis([xmin,xmax,ymin,ymax]) : 입력값이 없으면 데이터에 맞게 자동으로 범위 지정
+ - 6. 마커 지정하기
+ plot 함수 내 지정 eg. 'bo' , 'bo--' ,...
+ - 7. 색상 지정하기
+ - 8. Matplotlib 그래프 영역 채우기 : 그래프의 특정 영역을 색상으로 채워서 강조
+ how ?
+ fill_between() : 두 수평 방향의 곡선 사이를 채우기 (두 그래프 사이 영역 채우기)
+ fill_betweenx() : 두 수직 방향의 곡선 사이를 채우기
+ fill() : 다각형 영역을 채우기
+
+
