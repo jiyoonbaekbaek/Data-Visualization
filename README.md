@@ -54,6 +54,19 @@ These are tutorial codes I've used for data visualization. All the codes are pro
  skipped most of the visualization parts since I'm already learning sns,plt separately from different sources
  - Folium 라이브러리 - 지도 활용 시각화 
  
+ ## part 5 :
+- 누락 데이터 확인 : df.info (), df[열 이름].value_counts(dropna=False), is null 메소드
+- isnull 응용 : df.isnull().sum(axis=0)
+- 누락 데이터 제거 : df.dropna(axis,thresh)
+- 누락 데이터 치환 df.fillna 메소드
+- fillna(method=ffill, bfill)
+- 자료형 변환 astype 메소드 
+- count,bin_dividers=np.histogram(df['horsepower'],bins=3) -> df['hp_bin']=pd.cut(x=df['horsepower'],bins=bin_dividers,labels=bin_names,include_lowest=True)
+- pd.to_datetime 
+- pd.to_period(freq=‘D’)
+- date_range,period_range 
+- dt.year,dt.month,dt.day
+ 
  
 # Matplotlib : 
  ## 1 ~ 3 :
