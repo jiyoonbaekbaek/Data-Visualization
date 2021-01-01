@@ -94,4 +94,10 @@ These are tutorial codes I've used for data visualization. All the codes are pro
  fill_betweenx() : 두 수직 방향의 곡선 사이를 채우기
  fill() : 다각형 영역을 채우기
 
+## 10 ~ 13 : 
+- 10. 그리드 설정하기 : plt.grid(True)
+- 11. 눈금 설정하기 : plt.xticks([...]),plt.yticks([...])
+      눈금 스타일 설정하기 : tick_params( ) 
+- 12. 타이틀 지정하기 : plt.title(loc,pad,fontdict)
+- 13. 수평선/수직선 표시하기 : axhline,hlines(y,xmin,xmax) / axvlines,vlines(x,ymin,ymax)
 
